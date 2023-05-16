@@ -1,0 +1,31 @@
+/* navbar start */
+.navbar{
+    background-color: #F0F4EC;
+}
+.navbar-brand{
+    font-family: 'Merienda', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #396C03;
+    margin-left: 102px;
+    position: relative;
+}
+.navbar-brand:hover{
+    color: #2a5002;
+}
+
+.navbar-brand img{
+    position: absolute;
+    top: 10.98%;
+}
+
+/* navbar  End*/
+
+#delivery-man {
+    position: relative;
+}
+#delivery-man  #delivery-man-img{
+    position: absolute;
+}
