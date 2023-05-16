@@ -7,6 +7,7 @@
 /* navbar start */
 .navbar {
     background-color: #F0F4EC !important;
+    border-bottom: 1px solid gray;
 }
 
 .navbar-brand {
@@ -15,12 +16,10 @@
     font-weight: 700;
     line-height: 45px;
     letter-spacing: 0em;
-    color: #396C03;
+    color: #396C03 !important;
     margin-left: 102px;
     position: relative;
 }
-
-.navbar-toggler-icon {}
 
 .navbar-brand img {
     position: absolute;
@@ -67,7 +66,312 @@
     color: #FFFFFF;
 }
 
+/* responsive code  */
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .login-store-button button {
+        font-size: 12px;
+        margin-left: 30px;
+        margin-right: 23px;
+        padding: 6px 18px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .navbar-brand {
+        font-size: 25px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        font-size: 27px;
+        margin-left: 80px;
+    }
+
+}
+
+
+/* responsive code  */
+
 /* navbar  End*/
+
+/* Home content */
+#home {
+    background-color: #F0F4EC !important;
+    position: relative;
+    padding: 110px 0px;
+}
+
+.green-leaf {
+    position: absolute;
+    top: -50px;
+    width: 300px;
+    height: 300px;
+}
+
+.home-content-text {
+    text-align: left;
+    margin: auto !important;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.home-content-text h1 {
+    font-family: Merienda;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 5px;
+    color: #396C03;
+    position: relative;
+}
+
+.home-content-text h1 span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.home-content-text h1 #dot {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 139, 0, 1);
+    font-size: 50px;
+}
+
+.home-content-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #676767;
+}
+
+.input-group {
+    border: 1px solid #396C03;
+    border-radius: 50px;
+    background-color: #F0F4EC !important;
+}
+
+.input-group img {
+    margin: 5px;
+}
+
+.input-group input {
+    border: none;
+    background-color: #F0F4EC !important;
+}
+
+.input-group button {
+    background-color: #396C03;
+    color: #fff;
+    border-radius: 50px !important;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 50px;
+}
+
+
+.home-content-img {
+    margin: auto !important;
+    text-align: center;
+    position: relative;
+}
+
+.home-content-img .plate-of-food {
+    position: absolute;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.home-content-img .green-leaf {
+    position: absolute;
+    right: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+/* responsive code  */
+@media screen and (max-width: 600px) {
+    #home {
+        padding: 30px 0px;
+    }
+
+    .green-leaf {
+        display: none;
+    }
+
+    .home-content-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .home-content-text h1 span {
+        display: inline;
+    }
+
+    .home-content-text h1 #dot {
+        font-size: 30px;
+    }
+
+    .home-content-text p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .input-group img {
+        margin: 2px;
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .input-group button {
+        background-color: #396C03;
+        color: #fff;
+        border-radius: 50px !important;
+        border: none;
+        margin-left: 0px;
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+
+    .home-content-img .plate-of-food {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    #home {
+        padding: 50px 0px;
+    }
+
+    .green-leaf {
+        display: none;
+    }
+
+    .home-content-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .home-content-text h1 span {
+        display: inline;
+    }
+
+    .home-content-text h1 #dot {
+        font-size: 30px;
+    }
+
+    .home-content-text p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .home-content-img .plate-of-food {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #home {
+        padding: 570px 0px;
+    }
+
+    .green-leaf {
+        display: none;
+    }
+
+    .home-content-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .home-content-text h1 span {
+        display: inline;
+    }
+
+    .home-content-text h1 #dot {
+        font-size: 30px;
+    }
+
+    .home-content-text p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    1880
+}
+
+@media screen and (max-width: 1880px) {
+    .green-leaf {
+        display: none;
+    }
+}
+
+/* responsive code  */
+
+/* Home content End*/
+
+/* favourite city's food Start */
+#favourite-city-food {
+    background-color: #FFF9F2;
+}
+
+.favourite-city-food-text {
+    margin: auto !important;
+    align-items: center;
+    text-align: left;
+}
+
+.favourite-city-food-text h2 {
+    font-family: Merienda;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 5px;
+    color: #396C03;
+}
+
+.favourite-city-food-text h2 span {
+    display: block;
+}
+
+.favourite-city-food-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    max-width: 500px;
+}
+
+.favourite-city-food-text button {
+    background-color: #396C03;
+    color: #fff;
+    border-radius: 50px !important;
+    border: none;
+    margin-left: 10px;
+    padding: 15px 50px;
+}
+
+.favourite-city-food-text button i {
+    padding-left: 8px;
+}
 
 #delivery-man {
     position: relative;
@@ -75,4 +379,71 @@
 
 #delivery-man #delivery-man-img {
     position: absolute;
+    bottom: 0px;
+    width: 80%;
 }
+
+#delivery-man-img-2 {
+    width: 100%;
+}
+
+/* responsive code  */
+@media screen and (max-width: 600px) {
+    .favourite-city-food-text h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    .favourite-city-food-text p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+
+    .favourite-city-food-text button {
+        padding: 12px 30px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .favourite-city-food-text h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+
+    .favourite-city-food-text p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        max-width: 100%;
+    }
+
+    .favourite-city-food-text button {
+        padding: 12px 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .favourite-city-food-text h2 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .favourite-city-food-text p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+}
+
+/* responsive code  */
+
+/* favourite city's food End */

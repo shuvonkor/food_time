@@ -27,86 +27,97 @@
     <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">FoodTime <img src="./asset/Vector.png" alt="Vector"></a>
+            <a class="navbar-brand" href="#">FoodTime <img src="./asset/Vector.png" alt="Vector" id="watchImage"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">About us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                EN
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="d-flex login-store-button">
-                        <button>Login</button>
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            EN
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex login-store-button">
+                    <button>Login</button>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
+            </div>
         </div>
     </nav>
     <!-- Navbar  End-->
 
-    <!-- Header start -->
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6">
-                    <h1>Order food online from your favourite local restaurants.</h1>
+    <!-- Home content start-->
+    <section id="home">
+        <img class="green-leaf" src="./asset/green leaf.png" alt="">
+        <div class="container-fluid home-content">
+            <div class="row p-5">
+                <div class="home-content-text col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h1>
+                        <span>Order food online</span>
+                        <span>from your favourite</span>
+                        <span>local restaurants <span id="dot">.</span></span>
+                    </h1>
                     <p>Freshly made food delivered to your door.</p>
+                    <div class="input-group">
+                        <img src="./asset/Ellipse 1.png" alt="">
+                        <input type="text" class="form-control" placeholder="Enter your location"
+                            aria-label="REnter your location" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                class="fa-solid fa-magnifying-glass"></i> Search</button>
+                    </div>
                 </div>
-                <div class="col-6">
+                <div class="home-content-img col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <img src="./asset/plate of food.png" alt="" class="img-fluid plate-of-food">
+                    <img src="./asset/green leaf 2.png" alt="" class="img-fluid green-leaf">
                     <img src="./asset/image 1.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
-    </header>
-    <!-- header  -->
+    </section>
+    <!-- Home content End-->
 
     <!-- favourite city's food  -->
-    <section>
-        <div class="container-fluid">
+    <section id="favourite-city-food">
+        <div class="container-fluid p-5">
             <div class="row">
-                <div class="col-6">
-                    <h2>Explore your favourite city’s food.</h2>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 favourite-city-food-text">
+                    <h2>Explore your <span></span> favourite city’s food.</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique
                         ut ut
                         libero sit
                         convallis maecenas. At egestas auctor porta mattis.
                     </p>
-                    <div class="explore_button">
-                        <button>Explore <i class="fa-solid fa-arrow-right"></i></button>
-                    </div>
+                    <button>Explore <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 favourite-city-food-img">
                     <div id="delivery-man">
                         <img src="./asset/cycle.png" alt="Delivery Man" id="delivery-man-img" class="img-fluid">
-                        <img src="./asset/image 2.png" alt="" class="img-fluid">
+                        <img src="./asset/image 2.png" alt="" class="img-fluid" id="delivery-man-img-2">
                     </div>
                 </div>
             </div>

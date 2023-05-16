@@ -1,17 +1,32 @@
-// const deliveryMan = document.getElementById("delivery-man");
-// const deliveryManImg = deliveryMan.querySelector("img");
+// Clock animation
+const rotationSpeed = 5;
 
-// let currentPosition = 0;
+function rotateImage() {
+  const image = document.getElementById("watchImage");
+  let rotation = 0;
 
-// function animateDeliveryMan() {
-//   currentPosition += 2;
-//   deliveryManImg.style.left = currentPosition + "px";
+  setInterval(() => {
+    rotation += rotationSpeed;
+    image.style.transform = `rotate(${rotation}deg)`;
+  }, 200);
+}
+rotateImage();
 
-//   if (currentPosition >= +200) {
-//     currentPosition = 0;
-//   }
+// Delivery man animation
+const deliveryMan = document.getElementById("delivery-man");
+const deliveryManImg = deliveryMan.querySelector("img");
 
-//   window.requestAnimationFrame(animateDeliveryMan);
-// }
+let currentPosition = 0;
 
-// animateDeliveryMan();
+function animateDeliveryMan() {
+  currentPosition += 1;
+  deliveryManImg.style.left = currentPosition + "px";
+
+  if (currentPosition >= +100) {
+    currentPosition = 0;
+  }
+
+  window.requestAnimationFrame(animateDeliveryMan);
+}
+
+animateDeliveryMan();
