@@ -1,8 +1,15 @@
-/* navbar start */
-.navbar{
-    background-color: #F0F4EC;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.navbar-brand{
+
+/* navbar start */
+.navbar {
+    background-color: #F0F4EC !important;
+}
+
+.navbar-brand {
     font-family: 'Merienda', cursive;
     font-size: 28px;
     font-weight: 700;
@@ -12,13 +19,52 @@
     margin-left: 102px;
     position: relative;
 }
-.navbar-brand:hover{
-    color: #2a5002;
-}
 
-.navbar-brand img{
+.navbar-toggler-icon {}
+
+.navbar-brand img {
     position: absolute;
     top: 10.98%;
+}
+
+.navbar-toggler {
+    color: #396C03;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-item a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.login-store-button button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 70px;
+    margin-right: 23px;
+    padding: 8px 28px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #396C03;
+    border-radius: 50px;
+    border: none;
+}
+
+.login-store-button a {
+    margin-right: 60px;
+    background-color: #396C03;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+
+.login-store-button i {
+    color: #FFFFFF;
 }
 
 /* navbar  End*/
@@ -26,6 +72,7 @@
 #delivery-man {
     position: relative;
 }
-#delivery-man  #delivery-man-img{
+
+#delivery-man #delivery-man-img {
     position: absolute;
 }
